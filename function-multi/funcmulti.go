@@ -1,19 +1,19 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func val() (int, int) {
-	return 3, 7
-}
+// func val() (int, int) {
+// 	return 3, 7
+// }
 
-func main() {
-	a, b := val()
+// func main() {
+// 	a, b := val()
 
-	fmt.Println(a)
-	fmt.Println(b)
+// 	fmt.Println(a)
+// 	fmt.Println(b)
 
-	c, _ := val()
+// 	c, _ := val()
 
-	fmt.Println(c)
+// 	fmt.Println(c)
 
-}
+// }
