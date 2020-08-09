@@ -23,3 +23,4 @@
 
 // 	fmt.Println("Pointer:", &i) // Printing the pointer value as well
 // }
+
