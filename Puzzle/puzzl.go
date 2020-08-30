@@ -22,22 +22,23 @@ func main() {
 		//fmt.Println("S", s)
 		result := r.Intn(10)
 
-		fmt.Println("What is your fav number?")
+		fmt.Println("Guess the number?")
 		fmt.Scanln(&number)
 
 		if result == number {
-			fmt.Println("Random no is", result)
+			//fmt.Println("Random no is", result)
 			fmt.Println("Yay! You got it!!!")
 			res = false
 			break
 
 		} else if i == 3 {
+			fmt.Println("Game Over!")
 			res = false
 			break
 		} else {
 
 			fmt.Println("Bad Luck, Try again")
-			fmt.Println("Random no is", result)
+			//fmt.Println("Random no is", result)
 			continue
 		}
 
